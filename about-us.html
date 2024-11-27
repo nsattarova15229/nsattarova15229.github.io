@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error 404</title>
+  <style>
+    /* Blue Screen of Death Style */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0000aa; /* Blue screen background */
+      color: #ffffff; /* White text */
+      font-family: 'Courier New', monospace; /* Retro typewriter font */
+      font-size: 20px; /* Make text readable */
+      text-align: center; /* Center align text */
+      display: flex; /* Flexbox for centering content */
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full height screen */
+      overflow: hidden; /* Prevent scrolling */
+    }
+
+    #bsod h1 {
+      font-size: 36px; /* Larger title */
+      text-transform: uppercase; /* Capitalize all letters */
+      margin: 20px 0;
+    }
+
+    #bsod p {
+      margin: 10px 0;
+    }
+
+    .key {
+      display: inline-block;
+      border: 1px solid #ffffff;
+      padding: 5px 10px;
+      margin: 0 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .key:hover {
+      background-color: #ffffff;
+      color: #0000aa;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="bsod">
+    <h1>Error 404</h1>
+    <p>The page you are looking for could not be found.</p>
+    <p>Press <span class="key">Ctrl</span> + <span class="key">Alt</span> + <span class="key">Del</span> to fix your life...</p>
+    <p>Or <span class="key">Click Here</span> to go back to safety!</p>
+  </div>
+</body>
+</html>
