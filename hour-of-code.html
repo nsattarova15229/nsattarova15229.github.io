@@ -3,45 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 Page Not Found</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: black;
-      color: #356c35;
-      font-family: 'Courier New', monospace;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .error-code {
-      font-size: 10rem;
-      margin: 0;
-    }
-    .message {
-      font-size: 1.5rem;
-      margin: 10px 0;
-    }
-    .sub-message {
-      font-size: 1rem;
-      margin: 5px 0;
-    }
-    a {
-      color: #4f4cff;
-      text-decoration: underline;
-    }
-    a:hover {
-      text-decoration: none;
-    }
-  </style>
+  <title>Akif Mammadov</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <h1 class="error-code">:( 404</h1>
-  <p class="message">Your PC is okay, but the page is not found.</p>
-  <p class="sub-message">The link you followed is probably broken, or the page has been removed. But don't worry, you can return to the <a onclick="location.href='index.html'">main page...</a></p>
-  <p class="sub-message">P.S.: It does not exist</p>
+<header>
+  <nav>
+    <div class="logo">
+      <a href="#home">
+        <img src="media\Akif-logo.png" alt="Logo" />
+      </a>
+    </div>
+    <ul class="nav-buttons">
+      <li><a href="" class="button">About Us</a></li>
+      <li><a href="" class="button">Team Members</a></li>
+      <li><a href="#home" class="button">Hour of Code Event</a></li>
+      <li><a href="" class="button">Website Project</a></li>
+      <li><a href="" class="button">Code Art</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/kedu.ro?igsh=eWc0NzZnZzJsNGkx" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://youtube.com/@nsattarova?si=Ezzw5S3E504gWQu3" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </nav>
+</header>
+<div class="akifdesign">
+  <!-- Animated Text Design -->
+  <span style="--i:1">H</span>
+  <span style="--i:2">o</span>
+  <span style="--i:3">u</span>
+  <span style="--i:4">r</span>
+  <span style="--i:5">&nbsp;</span>
+  <span style="--i:6">o</span>
+  <span style="--i:7">f</span>
+  <span style="--i:8">&nbsp;</span>
+  <span style="--i:9">C</span>
+  <span style="--i:10">o</span>
+  <span style="--i:11">d</span>
+  <span style="--i:12">e</span>
+  <span style="--i:13">&nbsp;</span>
+  <span style="--i:14">E</span>
+  <span style="--i:15">v</span>
+  <span style="--i:16">e</span>
+  <span style="--i:17">n</span>
+  <span style="--i:18">t</span>
+</div>
+<main>
+  <section id="home">
+    <div class="introduction-container">
+      <h2>INTRODUCTION</h2>
+      <p>The code.org was launched in January 2013 by twin brothers Ali and Hadi Partovi...</p>
+      <p class="highlight">Additionally, give people a chance to start programming now.</p>
+    </div>
+  </section>
+  <section id="info">
+    <h2>INFORMATION ABOUT HOUR OF CODE EVENT</h2>
+    <p>As one of the main parts of conducting Hour of Code, we completed the Express Course...</p>
+  </section>
+  <section id="about">
+    <div class="scroll-container">
+      <img src="media\photo_5355073879191710545_y.jpg" alt="Cinque Terre">
+      <img src="media\photo_5355073879191710547_y.jpg" alt="Forest">
+    </div>
+  </section>
+  <section id="video-photo">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/g-ZhVE6crMM" allowfullscreen></iframe>
+    </div>
+  </section>
+  <div class="contribution-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Team Member</th>
+          <th>Contribution</th>
+          <th>Estimated %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Amanbek Abilmansur</td>
+          <td>Operated camera...</td>
+          <td>20.00%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2024 Team 76 - Akif Mammadov. All Rights Reserved.</p>
+</footer>
+<script src="scripts.js"></script>
 </body>
 </html>
