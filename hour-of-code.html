@@ -1,8 +1,47 @@
-<html>
-  <head>
-<title></title>
-  </head>
-  <body>
-    <p>hello world</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page Not Found</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: #356c35;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .error-code {
+      font-size: 10rem;
+      margin: 0;
+    }
+    .message {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    .sub-message {
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+    a {
+      color: #4f4cff;
+      text-decoration: underline;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="error-code">:( 404</h1>
+  <p class="message">Your PC is okay, but the page is not found.</p>
+  <p class="sub-message">The link you followed is probably broken, or the page has been removed. But don't worry, you can return to the <a onclick="location.href='index.html'">main page...</a></p>
+  <p class="sub-message">P.S.: It does not exist</p>
+</body>
 </html>
