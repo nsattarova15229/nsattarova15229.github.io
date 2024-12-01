@@ -1,0 +1,160 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: #000000; /* Beige background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #356c35;
+}
+
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+    padding: 20px;
+    color: #356c35;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    color: #356c35; /* Muted beige-gold */
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.header li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.header a {
+    color: #356c35; /* Beige highlight */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a.home {
+    color: #356c35; /* Deeper beige for emphasis */
+}
+
+.header a:hover {
+    color: #b68934;
+}
+
+
+.banner {
+    margin-top: 74px;
+    padding: 40px 20px;
+    background-color: #000000;
+    color: #356c35;
+}
+
+.banner p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.editorial {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #356c35;
+    text-align: justify;
+}
+
+
+.font-card {
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px#356c35;
+}
+
+.font-card .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.font-card .button:hover {
+    background-color: #000000;
+}
+
+
+footer {
+    background-color: #356c35;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+.learn-more-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    text-align: center;
+}
+
+.center-container h2 {
+    font-size: 2em; 
+    margin: 0;
+}
+
+
+#top-logo {
+    display: block;
+    margin: 30px auto; /* Reduced margin for less spacing */
+    text-align: center;
+}
+
+#top-logo img {
+    max-width: 150px; /* Restrict the size of the logo */
+    height: auto;
+}

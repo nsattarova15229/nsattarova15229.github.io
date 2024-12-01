@@ -1,0 +1,51 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Style for the jumping "TEAMWORK" */
+.jumping-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FF5733;
+    animation: jump 1s ease-in-out infinite, colorChange 2s linear infinite;
+    cursor: pointer; /* Make it clickable */
+}
+
+/* Jumping effect */
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+/* Color change effect */
+@keyframes colorChange {
+    0% {
+        color: #FF5733;
+    }
+    25% {
+        color: #33FF57;
+    }
+    50% {
+        color: #3357FF;
+    }
+    75% {
+        color: #FF33A1;
+    }
+    100% {
+        color: #FF5733;
+    }
+}

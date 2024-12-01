@@ -1,0 +1,190 @@
+/* Styling for the overall body layout and theme */
+body {
+  background-color: black;
+  color: #356c35;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for focused input fields */
+input[type="text"]:focus {
+  outline: none;
+  border-color: #70da7e;
+}
+
+/* Styling for invalid input */
+input[type="text"].invalid {
+  border-color: red;
+}
+
+/* Notification area below the input field */
+#notification {
+  color: red;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  text-align: left;
+  width: 300px;
+}
+
+/* Styling for buttons */
+button {
+  font-family: 'Courier New', monospace;
+}
+
+/* Default button styling */
+button {
+  background-color: #356c35;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button hover state */
+button:hover {
+  background-color: black;
+  color: #356c35;
+  border: 2px solid #356c35;
+}
+
+/* Button disabled state */
+button:disabled {
+  background-color: grey;
+  color: black;
+  cursor: not-allowed;
+  border: none;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+  background-color: black;
+  color: #356c35;
+  border: 2px solid #356c35;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+  margin: 20px 0;
+  width: 300px;
+  text-align: center;
+}
+
+/* Header section styling */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 1000;
+}
+
+/* Styling for the ADA logo */
+#header-logo {
+  height: 100px;
+  width: auto;
+}
+
+/* Styling for the team logo */
+#team-logo {
+  height: 95px;
+  width: auto;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+
+/* Adjusted styling for the top logo */
+#top-logo {
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative; /* Allow the logo to scroll naturally with the content */
+  text-align: center;
+  margin: 20px auto; /* Space above and below */
+}
+
+#top-logo img {
+  max-width: 10%; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure it takes its own space */
+  margin: 0 auto; /* Center within the container */
+  transition: transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+#top-logo img:hover {
+  transform: scale(1.1);
+}
+
+/* Container for navigation buttons */
+#nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+/* Individual navigation button styling */
+#nav-buttons button {
+  background-color: #356c35;
+  color: black;
+  border: 2px solid transparent;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', monospace;
+}
+
+/* Navigation button hover state */
+#nav-buttons button:hover {
+  background-color: black;
+  color: #356c35;
+  border: 2px solid #356c35;
+}
+
+/* Styling for the About Us container */
+#about-us-container {
+  background-color: black;
+  color: #356c35;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000px;
+}
+
+/* Styling for the title */
+#about-us-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Styling for the text */
+#about-us-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
